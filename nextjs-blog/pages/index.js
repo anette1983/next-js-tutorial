@@ -46,15 +46,7 @@ export async function getStaticProps() {
 // }
 
 // Next.js has created a React hook for data fetching called SWR. We highly recommend it if you’re fetching data on the client side. It handles caching, revalidation, focus tracking, refetching on interval, and more.
-// import useSWR from "swr";
-
-// function Profile() {
-//   const { data, error } = useSWR("/api/user", fetch);
-
-//   if (error) return <div>failed to load</div>;
-//   if (!data) return <div>loading...</div>;
-//   return <div>hello {data.name}!</div>;
-// }
+// cd
 
 export default function Home({ allPostsData }) {
   return (
@@ -67,7 +59,7 @@ export default function Home({ allPostsData }) {
           Hello! I am <span className={utilStyles.headingLg}>{name}</span>. I am
           a front-end developer. You can contact me on{" "}
           <a href="https://www.linkedin.com/in/hanna-konchakovska/">Linkedin</a>
-          . Read <Link href="/posts/first-post">this page!</Link>
+          .{/* . Read <Link href="/posts/first-post">this page!</Link> */}
         </p>
         <p>
           (This is a sample website - you’ll be building a site like this on{" "}
